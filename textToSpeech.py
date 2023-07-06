@@ -12,7 +12,7 @@ file.close()
 
 def speak(text):
     engine = pyttsx3.init()
-    engine.setProperty('rate', 95)  
+    engine.setProperty('rate', 100)  
     engine.setProperty('volume', 0.9)  
     engine.setProperty('voice', 'en-us')  
     engine.say(text)
